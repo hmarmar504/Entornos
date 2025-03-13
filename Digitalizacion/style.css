@@ -1,0 +1,71 @@
+.contenedor{
+    float:inline-start;
+    width: 250px;
+    height: 300px;
+    overflow:hidden;
+    margin: 5px;
+    padding: 0%;
+    align-content: center;
+    text-align: center;
+    font-size:medium;
+    box-shadow: 7px 7px 4px slategrey;
+    border-radius: 10px;
+}
+body{
+    height: 200vh;
+}
+.inter{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.pagina{
+    display: flex;
+    border-radius: 10px;
+    background-color: green;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.marcador{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: salmon;
+    height: 20%;
+    width: 100%;
+}
+.texto{
+    width: 90%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-start;
+}
+.txt{
+    width: 100%;
+    margin-bottom: 25px ;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.575);
+}
+.comprar{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 5px;
+}
